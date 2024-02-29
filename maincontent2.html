@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Tabel</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1.table-title {
+            text-align: center;
+            color: #003066; /* Ubah warna judul */
+        }
+
+        hr {
+            border: 2px solid #003066; /* Ubah ketebalan dan warna garis horizontal */
+            width: 50%;
+            margin: auto;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 75%;
+            margin: auto;
+            border-radius: 10px; /* Tambahkan sudut bulat pada tabel */
+            overflow: hidden; /* Sembunyikan tepi dari sel tabel */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Tambahkan bayangan untuk efek mengapung */
+        }
+
+        th, td {
+            border: 1px solid #ffffff;
+            padding: 15px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #003066;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #ffffff;
+        }
+
+        tr:hover {
+            background-color: #ddd;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="table-title">Tentang Cek Ongkir</h1>
+    <hr>
+    <h3 align="center">PADA PT. ARMADA</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Fitur</th>
+                <th>Pesan Kendaraan</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Harga</td>
+                <td>Per jenis kendaraan</td>
+            </tr>
+            <tr>
+                <td>Pilihan Truk</td>
+                <td>Pilih Sendiri</td>
+            </tr>
+            <tr>
+                <td>Kapasitas</td>
+                <td>Seluruh ruang kargo</td>
+            </tr>
+            <tr>
+                <td>Rute</td>
+                <td>Langsung ke lokasi tujuan</td>
+            </tr>
+            <tr>
+                <td>Asuransi</td>
+                <td>Tersedia</td>
+            </tr>
+            <tr>
+                <td>ETA</td>
+                <td>Sesuai jadwal pilihan</td>
+            </tr>
+            <tr>
+                <td>Bantuan</td>
+                <td>Live 24/7</td>
+            </tr>
+            <tr>
+                <td>Akun Bisni</td>
+                <td>Tersedia</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
